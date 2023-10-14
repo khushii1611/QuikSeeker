@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+    font-family: 'Bona Nova', serif;
+}
+
+#jobsNavbar{
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(239, 172, 90); 
+    outline: 1px solid black;
+}
+
+
+#nav_components{
+    font-weight:600 ;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+.job_desc{
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+}
+.job_desc h2{
+    font-weight: bold;
+}
+.job_desc p{
+    font-size: 18px;
+    text-align: center;
+}
+.card{
+    background-color: rgb(235, 185, 127);
+}
+.view_more_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_footer{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_custom{
+    background-color: rgb(239, 183, 115);
+    color: rgb(6, 6, 6);
+}
+#socials{
+    font-size: large;
+    color:rgb(0, 0, 0);
+}
+
+
+/* laptop */
+@media (min-width:768px){
+
+    .job_desc{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .job_desc p{
+        font-size: 18px;
+        text-align: center;
+        margin: 20px 100px;
+    }
+
+    .card{
+        background-color: rgb(235, 185, 127);
+    }
+
+    .jobs_type{
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .card-title{
+        font-weight: 550;
+    }
+
+    #logo{
+        height: 60px;
+        width: 80px;
+    }
+    .view_more_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer_custom{
+        background-color: #fff;
+        height: 200px;
+        color: rgb(6, 6, 6);
+    }
+    #logo_footer{
+        width: 100px;
+        margin-left: 7.9rem;
+    }
+    #socials{
+        font-size: larger;
+        display: inline-block;
+        margin-left: 4.5rem;
+        color:rgb(0, 0, 0);
+    }
+    .Login,
+    .signIn{
+        cursor: pointer;
+    }
+    
+
+}

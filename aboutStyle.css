@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+    font-family: 'Bona Nova', serif;
+}
+#myNavbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(239, 172, 90);
+    outline: 1px solid black;
+}
+
+#logo{
+    height: 60px;
+    width: 80px;
+}
+
+
+.abt_us_container_1{
+    padding: 5px;
+}
+
+.abt_us_content_1{
+    margin:5px 40px;
+    text-align: center;
+}
+
+.us_img_container{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.us_img{
+    width: 100%;
+}
+
+.abt_us_title{
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer_custom{
+    background-color: rgb(239, 183, 115);
+    color: rgb(6, 6, 6);
+}
+#socials{
+    font-size: large;
+    color:rgb(0, 0, 0);
+}
+
+#logo_footer{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* for laptop */
+
+@media (min-width:768px)    {
+    .abt_us_container_1{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .abt_container_1{
+        width: 60%;
+    }
+
+    .abt_us_content_1{
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .us_img_container{
+        height: 470px;
+        object-fit: cover;
+        overflow-y: hidden;
+    }
+
+    .abt_us_title{
+        font-weight: bold;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #footer_custom{
+        background-color: rgb(239, 183, 115);
+        height: 200px;
+        color: rgb(6, 6, 6);
+    }
+    #logo_footer{
+        width: 100px;
+        margin-left: 7.9rem;
+    }
+    #socials{
+        font-size: larger;
+        display: inline-block;
+        margin-left: 4.5rem;
+        color:rgb(0, 0, 0);
+    }
+    
+}

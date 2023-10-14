@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+    font-family: 'Bona Nova', serif;
+}
+#myNavbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(239, 172, 90);
+    outline: 1px solid black;
+}
+
+#logo{
+    height: 60px;
+    width: 80px;
+}
+
+
+.navbar_nav{
+width: 100px;
+}
+
+.navbar_brand{
+    width: 100%;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0px 15px;
+}
+
+.first_container{
+    display: flex;
+    flex-direction: column;
+}
+
+#nav_components{
+    font-weight:600 ;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#first_container_image{
+    padding-top: 30px;
+    width: 100%;
+}
+
+#first_container_img{
+    margin-top: 3px;
+    width: 100%;
+    border: 6px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.first_container_content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.first_container_content_para{
+    text-align:center;
+}
+
+
+
+
+.register_yourself_container{
+    background-color: rgb(239, 183, 115);
+    height: 200px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+#register_here_btn{
+    width: 140px;
+}
+
+#why_text{
+    font-size: 35px;
+}
+
+#faqs_text{
+    font-weight: bold;
+}
+#footer_custom{
+    background-color: rgb(239, 183, 115);
+    color: rgb(6, 6, 6);
+}
+#socials{
+    font-size: large;
+    color:rgb(0, 0, 0);
+}
+
+#logo_footer{
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* for tablets */
+
+@media (min-width:768px){
+
+    #first_container_image{
+      margin-right: 20px;
+         
+    }
+    #first_container_img{
+        border-radius: 15px;
+        width: 600px;
+        margin-left: 58px;
+        margin-top: 50px;     
+        
+    }
+    .first_container{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .first_content_container{
+        margin-top: 30px;
+        padding: 80px;
+
+    }
+
+    .first_container_content{
+        font-size: 55px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .first_container_content_para{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+    .register_yourself_text{
+        font-size: 50px;
+    }
+    
+
+    .seek_yourself_text{
+        font-size: 25px;
+    }
+
+    .register_yourself_container{ 
+        height: 300px;
+        padding-top: 60px;
+    }
+    
+
+    
+
+    #why_text{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+#footer_custom{
+    background-color: rgb(239, 183, 115);
+    height: 200px;
+    color: rgb(6, 6, 6);
+}
+#logo_footer{
+    width: 100px;
+    margin-left: 7.9rem;
+}
+#socials{
+    font-size: larger;
+    display: inline-block;
+    margin-left: 4.5rem;
+    color:rgb(0, 0, 0);
+}
+.Login,
+.signIn{
+    cursor: pointer;
+}
+
+
+    
+
+    
+
+    
+
+
+
+
+}
+
+
+
